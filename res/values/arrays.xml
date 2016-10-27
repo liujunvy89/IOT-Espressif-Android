@@ -81,17 +81,43 @@
         <item>Delete</item>
     </string-array>
 
-    <string-array name="esp_ui_device_dialog_items">
-        <item>Rename</item>
-        <item>Delete</item>
+    <integer-array name="esp_touch_taskResultCount">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="esp_main_device_sort">
+        <item>Device name</item>
+        <item>Activated time</item>
     </string-array>
 
-    <string-array name="esp_sss_device_configure_options">
-        <item>Direct Connect</item>
-        <!-- <item>Configure to the target AP</item> -->
+    <string-array name="esp_espbutton_actions">
+        <item>Reset function</item>
+        <item>Set color</item>
+        <item>Turn on/off</item>
+        <item>Set timer</item>
+        <item>Set brightness</item>
     </string-array>
 
-    <string-array name="esp_sss_device_use_options">
-        <item>Upgrade device</item>
+    <string-array name="esp_trigger_dimensions">
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>K</item>
+        <item>L</item>
     </string-array>
+
+    <integer-array name="esp_light_colors">
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffffff00</item>
+        <item>0xff00ff00</item>
+        <item>0xff00ffff</item>
+        <item>0xff0000ff</item>
+        <item>0xffff00ff</item>
+    </integer-array>
 </resources>

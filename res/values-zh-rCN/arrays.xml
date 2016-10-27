@@ -80,18 +80,35 @@
     <string-array name="esp_device_timer_oprate_options">
         <item>删除</item>
     </string-array>
-    
-    <string-array name="esp_ui_device_dialog_items">
-        <item>重命名设备</item>
-        <item>删除设备</item>
+
+    <string-array name="esp_main_device_sort">
+        <item>设备名</item>
+        <item>激活时间</item>
     </string-array>
 
-    <string-array name="esp_sss_device_configure_options">
-        <item>直连</item>
-        <!-- <item>配置到指定路由</item> -->
+    <string-array name="esp_espbutton_actions">
+        <item>重置设置</item>
+        <item>设置颜色</item>
+        <item>设置开关</item>
+        <item>设置定时器</item>
+        <item>设置亮度</item>
     </string-array>
 
-    <string-array name="esp_sss_device_use_options">
-        <item>设备升级</item>
+    <string-array name="esp_trigger_dimensions">
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>K</item>
+        <item>L</item>
     </string-array>
+
+    <integer-array name="esp_light_colors">
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffffff00</item>
+        <item>0xff00ff00</item>
+        <item>0xff00ffff</item>
+        <item>0xff0000ff</item>
+        <item>0xffff00ff</item>
+    </integer-array>
 </resources>
